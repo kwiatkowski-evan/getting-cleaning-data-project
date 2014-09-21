@@ -1,18 +1,20 @@
 getting-cleaning-data-project
 =============================
+DESCRIPTION OF run_analysis.R
 
-
-
-
-
-
-
+The code provided will:
+1) Load the data
+2) Merge testing and training sets
+3) Extract only the measurements on the mean and standard deviation for each measurement. 
+4) Add descriptive titles to the activity names
+5) Find the mean of each category by Subject and Activity
 
 
 CODE BOOK
 Variable	Quantity	Description
 Subject	1-30	Code to identify participant
 Activity	"LAYING", "SITTING", "STANDING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS"	Exercise Activity
+The following are measurements that relate to the mean and standard deviation of different measurements.
 "tBodyAcc-mean()-X"           
 "tBodyAcc-mean()-Y"          
 "tBodyAcc-mean()-Z"           
